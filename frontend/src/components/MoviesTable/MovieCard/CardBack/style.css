@@ -1,0 +1,16 @@
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: #6C7A89;
+  border-radius: 5px;
+  text-align: left;
+  padding: 15px;
+}
+
+p {
+  font-size: 11px;
+  color: white;
+}
